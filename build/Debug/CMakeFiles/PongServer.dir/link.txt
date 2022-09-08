@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/PongServer.dir/main.cpp.o -o PongServer  -lsfml-system -lsfml-network 
