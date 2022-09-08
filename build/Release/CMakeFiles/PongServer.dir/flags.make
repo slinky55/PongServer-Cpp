@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/shaft/PongServer/include
+CXX_INCLUDES = -I/home/shaft/PongServer/include -I/home/shaft/PongServer/3rdparty/sfml/include
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++2a
 

@@ -92,6 +92,8 @@ PongServer_EXTERNAL_OBJECTS =
 
 PongServer: CMakeFiles/PongServer.dir/main.cpp.o
 PongServer: CMakeFiles/PongServer.dir/build.make
+PongServer: 3rdparty/sfml/lib/libsfml-network.so.3.0.0
+PongServer: 3rdparty/sfml/lib/libsfml-system.so.3.0.0
 PongServer: CMakeFiles/PongServer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shaft/PongServer/build/Release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable PongServer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PongServer.dir/link.txt --verbose=$(VERBOSE)

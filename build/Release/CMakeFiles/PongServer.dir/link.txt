@@ -1,1 +1,1 @@
-/usr/bin/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/PongServer.dir/main.cpp.o -o PongServer  -lsfml-system -lsfml-network 
+/usr/bin/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/PongServer.dir/main.cpp.o -o PongServer  -Wl,-rpath,/home/shaft/PongServer/build/Release/3rdparty/sfml/lib 3rdparty/sfml/lib/libsfml-network.so.3.0.0 3rdparty/sfml/lib/libsfml-system.so.3.0.0 
