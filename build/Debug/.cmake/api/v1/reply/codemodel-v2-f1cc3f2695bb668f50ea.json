@@ -11,7 +11,7 @@
 						1
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.0.0"
@@ -30,7 +30,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-3rdparty.sfml-Release-4fe7475fa799485bf7f3.json",
+					"jsonFile" : "directory-3rdparty.sfml-Debug-24a141e26fc2c3c95052.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -50,7 +50,7 @@
 						7
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-3rdparty.sfml.src.SFML-Release-1072a1fcc6bcda6635a9.json",
+					"jsonFile" : "directory-3rdparty.sfml.src.SFML-Debug-1072a1fcc6bcda6635a9.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -62,7 +62,7 @@
 				{
 					"build" : "3rdparty/sfml/src/SFML/System",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-3rdparty.sfml.src.SFML.System-Release-c0b92001906dc75ea1c7.json",
+					"jsonFile" : "directory-3rdparty.sfml.src.SFML.System-Debug-e8405a3638485931d46c.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -78,7 +78,7 @@
 				{
 					"build" : "3rdparty/sfml/src/SFML/Window",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-3rdparty.sfml.src.SFML.Window-Release-e9872982bcfb07eba536.json",
+					"jsonFile" : "directory-3rdparty.sfml.src.SFML.Window-Debug-1c92aa30c1c752e585d3.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -94,7 +94,7 @@
 				{
 					"build" : "3rdparty/sfml/src/SFML/Network",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-3rdparty.sfml.src.SFML.Network-Release-05b84d57396bd0b86d94.json",
+					"jsonFile" : "directory-3rdparty.sfml.src.SFML.Network-Debug-2a3bce22ec9aa4d5f97b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -110,7 +110,7 @@
 				{
 					"build" : "3rdparty/sfml/src/SFML/Graphics",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-3rdparty.sfml.src.SFML.Graphics-Release-bd425d3bed006c837ed2.json",
+					"jsonFile" : "directory-3rdparty.sfml.src.SFML.Graphics-Debug-e400930728c6dccbef4d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -126,7 +126,7 @@
 				{
 					"build" : "3rdparty/sfml/src/SFML/Audio",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-3rdparty.sfml.src.SFML.Audio-Release-fd9db45ea9f1d959d2ad.json",
+					"jsonFile" : "directory-3rdparty.sfml.src.SFML.Audio-Debug-1eef22b4528e73b5a340.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -140,7 +140,7 @@
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -186,42 +186,42 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "PongServer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-PongServer-Release-f1cd6433022198c67111.json",
+					"jsonFile" : "target-PongServer-Debug-eed5429db517855efd89.json",
 					"name" : "PongServer",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "sfml-audio::@230bf371ec80154d0b29",
-					"jsonFile" : "target-sfml-audio-Release-74cf5e6f310b7e5bcba6.json",
+					"jsonFile" : "target-sfml-audio-Debug-8c1ed2c9d5b0d8db5145.json",
 					"name" : "sfml-audio",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "sfml-graphics::@4d270ef2af09ebfcfc98",
-					"jsonFile" : "target-sfml-graphics-Release-3c4d7fe704f915575889.json",
+					"jsonFile" : "target-sfml-graphics-Debug-62728f21c2f898a15e9e.json",
 					"name" : "sfml-graphics",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "sfml-network::@6ea79c91ce30353f3bdb",
-					"jsonFile" : "target-sfml-network-Release-511f49f8bb1beba9674a.json",
+					"jsonFile" : "target-sfml-network-Debug-f5ccb88017d1fe7ac68b.json",
 					"name" : "sfml-network",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "sfml-system::@85bbaa4e5f2b91d1c03e",
-					"jsonFile" : "target-sfml-system-Release-9f43d7795d25d2434f14.json",
+					"jsonFile" : "target-sfml-system-Debug-d5febc3a276eef883ab1.json",
 					"name" : "sfml-system",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "sfml-window::@aa7de7132628e290f203",
-					"jsonFile" : "target-sfml-window-Release-e44ea5d7115d8f6177e1.json",
+					"jsonFile" : "target-sfml-window-Debug-7e765c8e646aa42d3d83.json",
 					"name" : "sfml-window",
 					"projectIndex" : 1
 				}
@@ -231,7 +231,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/shaft/PongServer/build/Release",
+		"build" : "/home/shaft/PongServer/build/Debug",
 		"source" : "/home/shaft/PongServer"
 	},
 	"version" : 

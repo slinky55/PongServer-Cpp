@@ -1,4 +1,4 @@
-CMakeFiles/PongServer.dir/main.cpp.o: /home/shaft/PongServer/main.cpp \
+CMakeFiles/PongServer.dir/Server.cpp.o: /home/shaft/PongServer/Server.cpp \
  /usr/include/stdc-predef.h /home/shaft/PongServer/Server.h \
  /usr/include/c++/10/iostream \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \

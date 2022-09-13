@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/shaft/PongServer/Server.cpp" "CMakeFiles/PongServer.dir/Server.cpp.o" "gcc" "CMakeFiles/PongServer.dir/Server.cpp.o.d"
   "/home/shaft/PongServer/main.cpp" "CMakeFiles/PongServer.dir/main.cpp.o" "gcc" "CMakeFiles/PongServer.dir/main.cpp.o.d"
   )
 
