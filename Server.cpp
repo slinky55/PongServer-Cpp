@@ -142,14 +142,15 @@ void Server::simulate(float dt)
 {
     for (auto& player : players)
         player.transform.position += (player.transform.velocity * dt);
+    ball.transform.position += (ball.transform.velocity * dt);
 }
 
 void Server::broadcast()
 {
     sf::Packet p1, p2;
 
-    p1 << players[0].transform << players[1].transform;
-    p2 << players[1].transform << players[0].transform;
+    p1 << players[0].transform << players[1].transform << ball.transform;
+    p2 << players[1].transform << players[0].transform << ball.transform;
 
     socket.send(p1, players[0].connection.playerIp, players[0].connection.playerPort);
     socket.send(p2, players[1].connection.playerIp, players[1].connection.playerPort);
