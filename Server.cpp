@@ -4,17 +4,14 @@ sf::Packet& operator<<(sf::Packet& packet, const sf::Vector2f& vec)
 {
     return packet << vec.x << vec.y;
 }
-
 sf::Packet& operator>>(sf::Packet& packet, sf::Vector2f& vec)
 {
     return packet >> vec.x >> vec.y;
 }
-
 sf::Packet& operator<<(sf::Packet& packet, const Transform& transform)
 {
     return packet << transform.position << transform.velocity << transform.scale << transform.rotation;
 }
-
 sf::Packet& operator>>(sf::Packet& packet, Transform& transform)
 {
     return packet >> transform.position >> transform.velocity >> transform.scale >> transform.rotation;
