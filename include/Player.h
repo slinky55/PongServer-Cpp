@@ -9,6 +9,7 @@ struct Player
     Connection connection;
     sf::Uint32 ID {0};
     sf::Uint32 score {0};
+    int cmd = -1;
 };
 
 

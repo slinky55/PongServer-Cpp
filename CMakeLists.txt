@@ -4,7 +4,7 @@ project (PongServer)
 set (CMAKE_CXX_STANDARD 20)
 
 include_directories(include)
-add_subdirectory(3rdparty/sfml)
+#add_subdirectory(3rdparty/sfml)
 
 add_executable (${PROJECT_NAME} main.cpp Server.cpp)
 

@@ -3,7 +3,9 @@
 
 int main()
 {
-    Server server;
+    Server server {};
+
+    server.init();
     server.run();
 
 	return 0;

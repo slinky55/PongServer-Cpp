@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -rdynamic CMakeFiles/PongServer.dir/main.cpp.o CMakeFiles/PongServer.dir/Server.cpp.o -o PongServer  -Wl,-rpath,/home/shaft/PongServer/build/Debug/3rdparty/sfml/lib 3rdparty/sfml/lib/libsfml-network-d.so.3.0.0 3rdparty/sfml/lib/libsfml-system-d.so.3.0.0 

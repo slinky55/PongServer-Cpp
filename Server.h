@@ -12,19 +12,24 @@ public:
     Server();
     ~Server();
 
+    void init();
     void run();
 private:
-    sf::Uint32 playerCount = 0;
+    sf::Uint32 currentID {0};
 
     bool running;
 
-    sf::TcpListener listener;
-    sf::SocketSelector selector;
+    sf::UdpSocket socket;
+    sf::Clock clock;
 
     Player players[2];
-
     struct Ball
     {
-        sf::Transform transform;
+        Transform transform;
     } ball;
+
+    void update();
+    void simulate(float dt);
+    void receive();
+    void broadcast();
 };
