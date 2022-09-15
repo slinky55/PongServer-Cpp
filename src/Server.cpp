@@ -1,4 +1,4 @@
-#include "Server.h"
+#include <Server.h>
 
 sf::Packet& operator<<(sf::Packet& packet, const sf::Vector2f& vec)
 {
@@ -63,7 +63,7 @@ void Server::init()
         std::cout << "Bound socket to port 4500\n";
     }
         
-    //socket.setBlocking(false);
+    socket.setBlocking(false);
 }
 
 void Server::run()
@@ -111,6 +111,8 @@ void Server::receive()
                         currentID++;
                     }
                 }    
+                if (currentID == 2)
+                    clock.restart();
                 break;
             case 1:     // Message signal
                 received >> senderID;
