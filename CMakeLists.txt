@@ -3,8 +3,12 @@ project (PongServer)
 
 set (CMAKE_CXX_STANDARD 20)
 
-include_directories(include)
-#add_subdirectory(3rdparty/sfml)
+if (MACOS)
+	include_directories(/usr/local/include PongClient/include)
+	link_directories(/usr/local/lib)
+else()
+	include_directories(include)
+endif()
 
 file(GLOB_RECURSE SRCS src/*.cpp)
 
